@@ -1,0 +1,720 @@
+-- {
+  font-family: "Indie Flower", cursive;
+  font-family: "Noto Serif", serif;
+  font-family: "DM Serif Text", serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Noto Serif", serif;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+/* <!-- navbar start --> */
+.navbar li {
+  font-size: 0.8rem;
+  margin: 0 0.5rem;
+}
+
+.navbar-brand {
+  font-family: "Indie Flower", cursive;
+  font-weight: 700;
+}
+
+/* <!-- navbar-end --> */
+
+/* <!-- landing start --> */
+#landing {
+  padding-top: 3rem;
+  min-height: 100vh;
+  width: 100%;
+  margin-bottom: 10rem;
+  position: relative;
+}
+
+#landing img {
+  width: 80%;
+  max-width: 136vh;
+}
+
+#landing .img-head {
+  position: absolute;
+  background-color: rgba(44, 44, 44, 0.849);
+  color: white;
+  width: 40%;
+  padding: 2rem;
+  top: 30%;
+  left: 55%;
+}
+
+.img-head p {
+  font-size: 0.8rem;
+  text-transform: capitalize;
+}
+.img-head h1 {
+  font-size: 2.1rem;
+  font-weight: 500;
+  padding-bottom: 2rem;
+}
+
+.img-head a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: white;
+  font-size: 0.7rem;
+}
+
+.landing-galery {
+  position: absolute;
+  top: 92%;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+}
+
+.landing-galery i {
+  font-size: 2rem;
+}
+
+.landing-galery .arrow-con {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  padding-right: 3rem;
+}
+
+#landing .col {
+  display: flex;
+  justify-content: space-between;
+
+  padding: 0;
+  flex-direction: row;
+}
+
+#landing .col img {
+  object-fit: cover;
+}
+/* <!-- landing end --> */
+
+/* About start */
+#about a {
+  color: black;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+#about span {
+  position: absolute;
+  left: -780px;
+  text-transform: uppercase;
+  color: rgba(77, 77, 77, 0.226);
+  top: 114%;
+  font-size: 15rem;
+}
+
+#about {
+  margin-bottom: 10rem;
+}
+/* about end */
+
+/* plants start */
+#plants h1 {
+  position: absolute;
+  transform: rotate(90deg);
+  right: -600px;
+  font-weight: 400;
+  text-decoration: underline;
+  top: 106rem;
+}
+
+#plants img {
+  width: 100%;
+  object-fit: cover;
+  height: 500px;
+}
+
+#plants h3 {
+  font-size: 2.2rem;
+}
+#plants p {
+  margin-top: 2rem;
+}
+
+#plants .row2-img {
+  width: 80%;
+  height: 600px;
+  object-fit: cover;
+}
+
+#plants a {
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+}
+
+#plants .images-decor {
+  position: absolute;
+  right: 100px;
+  object-fit: cover;
+  top: 255%;
+  box-shadow: 1.5rem 1.5rem rgba(0, 0, 0, 0.336);
+  height: 350px;
+  width: 250px;
+}
+/* About end */
+
+/* tips start */
+#tips {
+  margin: 6rem 0;
+}
+
+#tips .row-tips1 img {
+  width: 80%;
+  height: 550px;
+  object-fit: cover;
+  box-shadow: -5.5rem -3.5rem rgba(0, 0, 0, 0.205);
+}
+
+#tips .row-tips1 {
+  display: flex;
+  flex-direction: row;
+}
+
+#tips a {
+  color: black;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+#tips span {
+  position: absolute;
+  left: 83%;
+  text-transform: uppercase;
+  color: rgba(77, 77, 77, 0.096);
+  top: 350%;
+  font-size: 15rem;
+}
+
+.row-tips2 {
+  display: flex;
+  flex-direction: row;
+}
+
+.row-tips2 img {
+  width: 600px;
+  margin-top: -60px;
+}
+/* tips end */
+
+/* video start */
+#video {
+  margin-top: 25rem;
+  position: relative;
+  margin-bottom: 10rem;
+}
+
+#video img {
+  width: 100%;
+  height: 450px;
+  object-fit: cover;
+}
+
+#video p {
+  font-size: 2rem;
+  padding-top: 15rem;
+  font-family: "Indie Flower", cursive;
+}
+
+#video p span {
+  font-family: "Indie Flower", cursive;
+  font-size: 4rem;
+  color: rgb(28, 128, 41);
+}
+
+#video iframe {
+  position: absolute;
+  z-index: 88;
+  top: -300px;
+}
+/* video end */
+
+/* contact start */
+#contact .contact-img1 img {
+  width: 70%;
+  height: 600px;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
+  box-shadow: -2.5rem 2.5rem rgba(0, 0, 0, 0.205);
+}
+
+#contact .quote {
+  font-size: 2rem;
+  font-family: "Indie Flower", cursive;
+  margin-bottom: 7rem;
+}
+
+#contact span {
+  font-size: 6rem;
+  line-height: 0;
+  font-family: "Indie Flower", cursive;
+}
+
+#contact .contact-img1 h3 {
+  margin-top: 7rem;
+  text-transform: capitalize;
+}
+
+#contact .contact-img1 a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: black;
+}
+
+#contact .contact-img2 {
+  padding-top: 10rem;
+}
+
+#contact .contact-img2 img {
+  width: 100%;
+  height: 650px;
+  object-fit: cover;
+}
+
+#contact .span-con1 {
+  position: absolute;
+  font-family: "Noto Serif", serif;
+  left: -60%;
+  text-transform: uppercase;
+  color: rgba(77, 77, 77, 0.096);
+  top: 670%;
+  font-size: 13rem;
+}
+#contact .span-con2 {
+  position: absolute;
+  font-family: "Noto Serif", serif;
+  left: 60%;
+  text-transform: uppercase;
+  color: rgba(77, 77, 77, 0.096);
+  top: 725%;
+  font-size: 13rem;
+}
+/* contact end */
+
+/* footer staer */
+footer {
+  background-color: rgb(28, 128, 41);
+  margin-top: 3rem;
+  color: white;
+  padding: 2rem;
+}
+
+footer .row {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+}
+
+footer .navbar-nav {
+  text-align: left;
+  font-size: 0.8rem;
+}
+
+footer h4 {
+  font-size: 1.5rem;
+  text-transform: capitalize;
+}
+
+footer button {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  margin-top: 1rem;
+  border: 0;
+  padding: 0.8rem 1rem;
+  outline: none;
+}
+
+footer button:hover {
+  color: black;
+  background-color: white;
+}
+/* footer endx */
+
+/* Responsive tablet*/
+@media (max-width: 768px) {
+  #landing img {
+    width: 100%;
+  }
+
+  #landing .img-head {
+    position: absolute;
+    color: white;
+    width: 40%;
+    padding: 2rem;
+    top: 20%;
+    left: 55%;
+  }
+
+  .img-head p {
+    font-size: 0.7rem;
+  }
+  .img-head h1 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding-bottom: 1rem;
+  }
+
+  .img-head a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    font-size: 0.7rem;
+  }
+
+  .landing-galery {
+    position: absolute;
+    top: 82%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .landing-galery i {
+    font-size: 2rem;
+  }
+
+  .landing-galery .arrow-con {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 3rem;
+  }
+
+  #plants .images-decor {
+    position: absolute;
+    right: 30px;
+    object-fit: cover;
+    top: 300%;
+    box-shadow: 0.5rem 0.5rem rgba(0, 0, 0, 0.336);
+    height: 170px;
+    width: 100%;
+  }
+
+  #plants img {
+    width: 100%;
+    height: 350px;
+  }
+
+  #plants .row2-img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+  }
+
+  #tips .row-tips1 img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    box-shadow: -1.5rem -1.5rem rgba(0, 0, 0, 0.205);
+  }
+
+  #tips .row-tips1 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .row-tips2 img {
+    width: 600px;
+    margin-top: -0px;
+  }
+
+  #tips .row-tips2 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #video iframe {
+    width: 100%;
+    height: 480px;
+  }
+
+  #video img {
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+  }
+
+  #contact .contact-img1 img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+    box-shadow: -2.5rem 2.5rem rgba(0, 0, 0, 0.205);
+  }
+
+  #contact .contact-img2 img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+  }
+
+  footer .navbar-nav {
+    text-align: center;
+    font-size: 0.8rem;
+  }
+}
+
+/* Responsive desktop*/
+@media (max-width: 992px) {
+  #landing img {
+    width: 90%;
+  }
+
+  #landing .img-head {
+    position: absolute;
+    color: white;
+    width: 40%;
+    padding: 2rem;
+    top: 35%;
+    left: 55%;
+  }
+
+  .img-head p {
+    font-size: 0.8rem;
+  }
+  .img-head h1 {
+    font-size: 1.7rem;
+    font-weight: 500;
+    padding-bottom: 1rem;
+  }
+
+  .img-head a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    font-size: 0.8rem;
+  }
+
+  .landing-galery {
+    position: absolute;
+    top: 92%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .landing-galery i {
+    font-size: 2rem;
+  }
+
+  .landing-galery .arrow-con {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 3rem;
+  }
+
+  #plants .images-decor {
+    position: absolute;
+    right: 50px;
+    object-fit: cover;
+    top: 330%;
+    box-shadow: 0.5rem 0.5rem rgba(0, 0, 0, 0.336);
+    height: 250px;
+    width: 25%;
+  }
+
+  #plants img {
+    width: 100%;
+    height: 450px;
+  }
+
+  #plants .row2-img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+  }
+
+  #tips .row-tips1 img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    box-shadow: -1.5rem -1.5rem rgba(0, 0, 0, 0.205);
+  }
+
+  #tips .row-tips1 .tips-para {
+    margin-left: 1rem;
+  }
+
+  .row-tips2 img {
+    width: 600px;
+    margin-top: 10px;
+  }
+
+  #video iframe {
+    width: 80%;
+    height: 400px;
+  }
+
+  #video img {
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+  }
+
+  #contact .contact-img1 img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+    box-shadow: -2.5rem 2.5rem rgba(0, 0, 0, 0.205);
+  }
+
+  #contact .contact-img2 img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+  }
+}
+
+/* Responsive phone*/
+@media (max-width: 576px) {
+  #landing img {
+    width: 100%;
+  }
+
+  #landing .img-head {
+    position: absolute;
+    color: white;
+    width: 40%;
+    padding: 1rem;
+    top: 10%;
+    left: 55%;
+  }
+
+  .img-head p {
+    font-size: 0.5rem;
+  }
+  .img-head h1 {
+    font-size: 1.1rem;
+    font-weight: 500;
+    padding-bottom: 1rem;
+  }
+
+  .img-head a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    font-size: 0.5rem;
+  }
+
+  .landing-galery {
+    position: absolute;
+    top: 72%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .landing-galery i {
+    font-size: 2rem;
+  }
+
+  .landing-galery .arrow-con {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 3rem;
+  }
+
+  #plants .images-decor {
+    position: absolute;
+    right: 30px;
+    object-fit: cover;
+    top: 320%;
+    box-shadow: 0.5rem 0.5rem rgba(0, 0, 0, 0.336);
+    height: 150px;
+    width: 100%;
+  }
+
+  #plants .row2-img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+  }
+
+  #tips .row-tips1 img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    box-shadow: -1.5rem -1.5rem rgba(0, 0, 0, 0.205);
+  }
+
+  #tips .row-tips1 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .row-tips2 img {
+    width: 600px;
+    margin-top: -0px;
+  }
+
+  #tips .row-tips2 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #video iframe {
+    width: 100%;
+    height: 280px;
+  }
+
+  #video img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+  }
+
+  #contact .contact-img1 img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+    box-shadow: -2.5rem 2.5rem rgba(0, 0, 0, 0.205);
+  }
+
+  #contact .contact-img2 img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+  }
+
+  footer .navbar-nav {
+    text-align: center;
+    font-size: 0.8rem;
+  }
+}
+
+.dark {
+  background-color: black;
+  color: white;
+}
+
+.dark-text {
+  color: white;
+}
